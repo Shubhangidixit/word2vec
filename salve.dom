@@ -1,0 +1,20 @@
+/*----------------------------------------------------------------------
+  domains
+----------------------------------------------------------------------*/
+dom(Word) = { salve };
+dom(kriyA-kriyArWa_kriyA) = { yes, no };
+dom(kriyA-object) = { yes, no };
+dom(kriyA-subject) = { human, no, yes, humanhuman };
+dom(subject-subject_samAnAXikaraNa) = { no, yes };
+dom(to-infinitive) = { human, no };
+dom(viSeRya-as_saMbanXI) = { no, yes };
+dom(viSeRya-det_viSeRaNa) = { no, human };
+dom(viSeRya-for_saMbanXI) = { no, yes };
+dom(viSeRya-of_saMbanXI) = { no, yes };
+dom(viSeRya-on_saMbanXI) = { no, yes };
+dom(viSeRya-saMKyA_viSeRaNa) = { no };
+dom(viSeRya-to_saMbanXI) = { no };
+dom(viSeRya-viSeRaNa) = { no, yes };
+dom(Followed_By) = { their, for, on, to, of, none };
+dom(POS) = { verb, noun, not_defined };
+dom(Meaning) = { xavA_kara, ORaXi, "ilAja/upacAra", aparAXa_boXa_se_mukwi, lepa, ArAma, upacAra, marahama, SAnwa_kara };

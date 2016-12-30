@@ -1,0 +1,42 @@
+/*----------------------------------------------------------------------
+  domains
+----------------------------------------------------------------------*/
+dom(kriyA-kriyArWa_kriyA) = { yes, no };
+dom(kriyA-object) = { yes, no };
+dom(kriyA-subject) = { human, no, yes, humanhuman };
+dom(viSeRya-as_saMbanXI) = { no, yes };
+dom(viSeRya-of_saMbanXI) = { no, yes };
+dom(viSeRya-viSeRaNa) = { no, yes };
+dom(Followed_By) = { their, for, on, to, of, none };
+dom(POS) = { verb, noun, not_defined };
+dom(Meaning) = { xavA_kara, ORaXi, "ilAja/upacAra", aparAXa_boXa_se_mukwi, lepa, ArAma, upacAra, marahama, SAnwa_kara };
+
+/*----------------------------------------------------------------------
+  decision tree
+----------------------------------------------------------------------*/
+dtree(Meaning) =
+{ (kriyA-kriyArWa_kriyA)
+  yes:{ xavA_kara: 1 },
+  no:{ (kriyA-object)
+      yes:{ (Followed_By)
+          on:{ lepa: 1 },
+          to:{ ArAma: 1 }},
+      no:{ (viSeRya-as_saMbanXI)
+          no:{ (viSeRya-of_saMbanXI)
+              no:{ (viSeRya-viSeRaNa)
+                  no:{ (POS)
+                      noun:{ (kriyA-subject)
+                          no:{ aparAXa_boXa_se_mukwi: 1 },
+                          yes:{ "ilAja/upacAra": 1 },
+                          humanhuman:{ "ilAja/upacAra": 1 }},
+                      not_defined:{ SAnwa_kara: 1 }},
+                  yes:{ ORaXi: 1 }},
+              yes:{ upacAra: 1 }},
+          yes:{ marahama: 1 }}}};
+
+/*----------------------------------------------------------------------
+  number of attributes: 8+1
+  number of levels    : 8
+  number of nodes     : 18
+  number of tuples    : 10
+----------------------------------------------------------------------*/

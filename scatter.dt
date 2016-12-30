@@ -1,0 +1,32 @@
+/*----------------------------------------------------------------------
+  domains
+----------------------------------------------------------------------*/
+dom(AjFArWaka_kriyA) = { yes, no };
+dom(conjunction-components) = { no, yes };
+dom(kriyA-object) = { inanimate, no, yes };
+dom(kriyA-over_saMbanXI) = { inanimate, no };
+dom(kriyA-with_saMbanXI) = { no, inanimate };
+dom(Meaning) = { PElA_xe, biKarA_xe, Cidaka_xe, lagA_xe, AcCAxiwa_kara_xe, wiwara_biwara };
+
+/*----------------------------------------------------------------------
+  decision tree
+----------------------------------------------------------------------*/
+dtree(Meaning) =
+{ (AjFArWaka_kriyA)
+  yes:{ (conjunction-components)
+      no:{ (kriyA-over_saMbanXI)
+          inanimate:{ PElA_xe: 1 },
+          no:{ (kriyA-with_saMbanXI)
+              no:{ Cidaka_xe: 2 },
+              inanimate:{ AcCAxiwa_kara_xe: 1 }}},
+      yes:{ lagA_xe: 1 }},
+  no:{ (kriyA-object)
+      inanimate:{ biKarA_xe: 1 },
+      no:{ wiwara_biwara: 1 }}};
+
+/*----------------------------------------------------------------------
+  number of attributes: 5+1
+  number of levels    : 5
+  number of nodes     : 11
+  number of tuples    : 7
+----------------------------------------------------------------------*/

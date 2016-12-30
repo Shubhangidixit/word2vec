@@ -1,0 +1,4 @@
+We then discuss motion of an object in a plane.  
+As a simple case of motion in a plane, we shall discuss motion with constant acceleration and treat in detail the projectile motion.  
+We shall discuss uniform circular motion in some detail.  
+These are called unit vectors that we discuss now.  

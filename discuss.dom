@@ -1,0 +1,7 @@
+/*----------------------------------------------------------------------
+  domains
+----------------------------------------------------------------------*/
+dom(Word) = { discuss };
+dom(Followed_By) = { motion, uniform, now };
+dom(POS) = { not_defined };
+dom(Meaning) = { paricarcA_kara, aXyayana_kara, carcA_kara };

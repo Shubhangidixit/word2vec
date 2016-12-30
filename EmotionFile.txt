@@ -1,0 +1,12 @@
+In the last chapter we developed the concepts of position, displacement, velocity and acceleration that are needed to describe the motion of an object along a straight line.  
+But in order to describe motion of an object in two dimensions (a plane) or three dimensions (space), we need to use vectors to describe the above - mentioned physical quantities.  
+We then discuss motion of an object in a plane.  
+As a simple case of motion in a plane, we shall discuss motion with constant acceleration and treat in detail the projectile motion.  
+As a simple case of motion in a plane, we shall discuss motion with constant acceleration and treat in detail the projectile motion.  
+Circular motion is a familiar class of motion that has a special significance in daily-life situations.  
+Circular motion is a familiar class of motion that has a special significance in daily-life situations.  
+We shall discuss uniform circular motion in some detail.  
+The equations developed in this chapter for motion in a plane can be easily extended to the case of three dimensions.  
+If the object moves from P to P′, the vector PP′ (with tail at P and tip at P′) is called the displacement vector corresponding to motion from point P (at time t) to point P′ (at time t′).  
+This fact was emphasised in the previous chapter also while discussing motion along a straight line.  
+Since we are dealing with motion in two dimensions in this chapter, we require use of only two unit vectors.  

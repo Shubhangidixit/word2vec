@@ -1,0 +1,18 @@
+/*----------------------------------------------------------------------
+  domains
+----------------------------------------------------------------------*/
+dom(Word) = { scatter };
+dom(AjFArWaka_kriyA) = { yes, no };
+dom(conjunction-components) = { no, yes };
+dom(kriyA-around_saMbanXI) = { no, yes };
+dom(kriyA-kriyA_viSeRaNa) = { no, yes };
+dom(kriyA-object) = { inanimate, no, yes };
+dom(kriyA-on_saMbanXI) = { no, yes };
+dom(kriyA-over_saMbanXI) = { inanimate, no };
+dom(kriyA-to_saMbanXI) = { no, yes };
+dom(kriyA-vAkya_viSeRaNa) = { no, yes };
+dom(kriyA-with_saMbanXI) = { no, inanimate };
+dom(vAkya-vAkya_saMbanXI) = { no, yes };
+dom(Followed_By) = { the, flowers, parsley, butter, none };
+dom(POS) = { verb, noun };
+dom(Meaning) = { PElA_xe, biKarA_xe, Cidaka_xe, lagA_xe, AcCAxiwa_kara_xe, wiwara_biwara };

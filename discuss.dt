@@ -1,0 +1,21 @@
+/*----------------------------------------------------------------------
+  domains
+----------------------------------------------------------------------*/
+dom(Followed_By) = { motion, uniform, now };
+dom(Meaning) = { paricarcA_kara, aXyayana_kara, carcA_kara };
+
+/*----------------------------------------------------------------------
+  decision tree
+----------------------------------------------------------------------*/
+dtree(Meaning) =
+{ (Followed_By)
+  motion:{ paricarcA_kara: 1, aXyayana_kara: 1 },
+  uniform:{ carcA_kara: 1 },
+  now:{ paricarcA_kara: 1 }};
+
+/*----------------------------------------------------------------------
+  number of attributes: 1+1
+  number of levels    : 2
+  number of nodes     : 4
+  number of tuples    : 4
+----------------------------------------------------------------------*/
